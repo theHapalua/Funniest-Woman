@@ -1,4 +1,6 @@
 /* On screens that are 1920px or less, set the background color to blue */
+/*FOR PERSONAL COMPUTERS*/
+/*----------------------*/
 @media screen and (max-width: 1920px) {
     #FirstView{
         position: relative;
@@ -61,9 +63,9 @@
     #LoadingCircleContainer{
         width: 80px;
         height: 80px;
-        position: relative;
-        top: 50%;
-        left: 35%;
+        position: absolute;
+        top: 40%;
+        left: 50%;
         transform: translate(-50%, -50%);
         background-color: transparent;
     }
@@ -200,13 +202,13 @@
 #LoadingTextContainer{
     background-color: transparent;
     position: absolute;
-    left: 60%;
-    top: 50%;
+    left: 53%;
+    top: 73%;
     transform: translate(-50% , -50%);
 }
 }
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1100px) {
     #FirstView{
         position: relative;
         height: 100%;
@@ -228,7 +230,7 @@
         color: #b9af1d;
         position: relative;
         text-align: center;
-        font-size: 2em;
+        font-size: 4em;
     }
     #LoadingContainer{
         background-color: transparent;
@@ -264,18 +266,27 @@
         background-color: #a5a5a5;
         color: black;
     }
+    #LoadingCircleContainer{
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        top: 41%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+    }
     #LoadingCircle{
         background-color: transparent;
-        height: 50px;
-        width: 50px;
+        height: 70px;
+        width: 70px;
         position: relative;
         top: 0%;
-        left: 10%;
-        border-radius: 65px;
-        border-top: 15px solid red;
-        border-left: 15px solid green;
-        border-bottom: 15px solid blue;
-        border-right: 15px solid yellow;
+        left: 0%;
+        border-radius: 100px;
+        border-top: 20px solid red;
+        border-left: 20px solid green;
+        border-bottom: 20px solid blue;
+        border-right: 20px solid yellow;
         animation-name: Loader;
         animation-duration: 2s;
         animation-direction: normal;
@@ -284,38 +295,38 @@
     }
     @keyframes Loader{
     0%{
-        border-top: 15px solid red;
-        border-bottom: 15px solid green;
-        border-left: 15px solid blue;
-        border-right: 15px solid yellow;
+        border-top: 20px solid red;
+        border-bottom: 20px solid green;
+        border-left: 20px solid blue;
+        border-right: 20px solid yellow;
     }
     25%{
         transform: rotate(90deg);
-        border-top: 15px solid blue;
-        border-bottom: 15px solid yellow;
-        border-left: 15px solid green;
-        border-right: 15px solid red;
+        border-top: 20px solid blue;
+        border-bottom: 20px solid yellow;
+        border-left: 20px solid green;
+        border-right: 20px solid red;
         }
     50%{
         transform: rotate(180deg);
-        border-top: 15px solid green;
-        border-bottom: 15px solid red;
-        border-left: 15px solid yellow;
-        border-right: 15px solid blue;
+        border-top: 20px solid green;
+        border-bottom: 20px solid red;
+        border-left: 20px solid yellow;
+        border-right: 20px solid blue;
         }
     75%{
         transform: rotate(270deg);
-        border-top: 15px solid yellow;
-        border-bottom: 15px solid blue;
-        border-left: 15px solid red;
-        border-right: 15px solid green;
+        border-top: 20px solid yellow;
+        border-bottom: 20px solid blue;
+        border-left: 20px solid red;
+        border-right: 20px solid green;
         }
     100%{
         transform: rotate(360deg);
-        border-top: 15px solid red;
-        border-bottom: 15px solid green;
-        border-left: 15px solid blue;
-        border-right: 15px solid yellow;
+        border-top: 20px solid red;
+        border-bottom: 20px solid green;
+        border-left: 20px solid blue;
+        border-right: 20px solid yellow;
         }
     }
     #dot1{
@@ -389,12 +400,18 @@
   }
   .LoadingText{
     font-family: "Righteous", sans-serif;
-    position: absolute;
-    left: 70%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2em;
-}
+    position: relative;
+    left: 20%;
+    top: 90%;
+    font-size: 3em;
+    }
+    #LoadingTextContainer{
+        background-color: transparent;
+        position: absolute;
+        left: 44%;
+        top: 75%;
+        transform: translate(-50% , -50%);
+    }
   }
   
   /* On screens that are 600px or less, set the background color to olive */
@@ -423,7 +440,7 @@
         font-size: 3em;
     }
     #LoadingContainer{
-        background-color: red;
+        background-color: transparent;
         position: relative;
         left: 10%;
         top: 10%;
@@ -456,14 +473,22 @@
         background-color: #a5a5a5;
         color: black;
     }
+    #LoadingCircleContainer{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+    }
     #LoadingCircle{
         background-color: transparent;
         height: 50px;
         width: 50px;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 0%;
+        left: 0%;
         border-radius: 65px;
         border-top: 15px solid red;
         border-left: 15px solid green;
@@ -586,5 +611,12 @@
     left: 20%;
     top: 90%;
     font-size: 2em;
-}
+    }
+    #LoadingTextContainer{
+        background-color: transparent;
+        position: absolute;
+        left: 44%;
+        top: 80%;
+        transform: translate(-50% , -50%);
+    }
 }
