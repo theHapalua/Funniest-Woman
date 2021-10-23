@@ -1,5 +1,6 @@
-/* On screens that are 1920px or less, set the background color to blue */
+/*----------------------*/
 /*FOR PERSONAL COMPUTERS*/
+/* On screens that are 1920px or less, set the background color to blue */
 /*----------------------*/
 @media screen and (max-width: 1920px) {
     #FirstView{
@@ -34,8 +35,8 @@
         width: 30%;
         height: 30%;
     }
-    #NotFoundText {
-        background-color: green;
+    #NotFoundTextContainer {
+        background-color: transparent;
         position: relative;
         left: 35%;
         top: 15%;
@@ -206,6 +207,37 @@
     top: 73%;
     transform: translate(-50% , -50%);
 }
+#NotFoundText{
+    font-family: "Balsamiq Sans", sans-serif;
+    text-align: center;
+    background-color: transparent;
+    font-size: 2em;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #7a7a7a;
+    animation-name: NotFoundAnim;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: normal;
+}
+@keyframes NotFoundAnim {
+    0%{
+        color: transparent;
+    }
+    74%{
+        color: transparent;
+    }
+    75%{
+        color: #7a7a7a;
+    }
+    100%{
+        color: #7a7a7a;
+    }
+}
 }
 
   @media screen and (max-width: 1100px) {
@@ -240,8 +272,8 @@
         width: 70%;
         height: 30%;
     }
-    #NotFoundText {
-        background-color: green;
+    #NotFoundTextContainer {
+        background-color: transparent;
         position: relative;
         left: 15%;
         top: 25%;
@@ -412,6 +444,37 @@
         top: 75%;
         transform: translate(-50% , -50%);
     }
+    #NotFoundText{
+        font-family: "Balsamiq Sans", sans-serif;
+        text-align: center;
+        background-color: transparent;
+        font-size: 2em;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #7a7a7a;
+        animation-name: NotFoundAnim;
+        animation-duration: 10s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-direction: normal;
+    }
+    @keyframes NotFoundAnim {
+        0%{
+            color: transparent;
+        }
+        74%{
+            color: transparent;
+        }
+        75%{
+            color: #7a7a7a;
+        }
+        100%{
+            color: #7a7a7a;
+        }
+    }
   }
   
   /* On screens that are 600px or less, set the background color to olive */
@@ -447,8 +510,8 @@
         width: 80%;
         height: 25%;
     }
-    #NotFoundText {
-        background-color: green;
+    #NotFoundTextContainer{
+        background-color: transparent;
         position: relative;
         left: 10%;
         top: 20%;
@@ -619,4 +682,35 @@
         top: 80%;
         transform: translate(-50% , -50%);
     }
+#NotFoundText{
+    font-family: "Balsamiq Sans", sans-serif;
+    text-align: center;
+    background-color: transparent;
+    font-size: 1em;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #7a7a7a;
+    animation-name: NotFoundAnim;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-direction: normal;
+}
+@keyframes NotFoundAnim {
+    0%{
+        color: transparent;
+    }
+    74%{
+        color: transparent;
+    }
+    75%{
+        color: #7a7a7a;
+    }
+    100%{
+        color: #7a7a7a;
+    }
+}
 }
