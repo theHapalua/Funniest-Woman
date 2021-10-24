@@ -218,7 +218,7 @@
     transform: translate(-50%, -50%);
     color: #7a7a7a;
     animation-name: NotFoundAnim;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count: 1;
     animation-timing-function: ease;
     animation-delay: 0s;
@@ -455,7 +455,7 @@
         transform: translate(-50%, -50%);
         color: #7a7a7a;
         animation-name: NotFoundAnim;
-        animation-duration: 10s;
+        animation-duration: 7s;
         animation-iteration-count: 1;
         animation-timing-function: ease;
         animation-delay: 0s;
@@ -693,7 +693,7 @@
     transform: translate(-50%, -50%);
     color: #7a7a7a;
     animation-name: NotFoundAnim;
-    animation-duration: 10s;
+    animation-duration: 7s;
     animation-iteration-count: 1;
     animation-timing-function: ease;
     animation-delay: 0s;
